@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="icon" href="logo.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -18,7 +18,6 @@
             <div class="nav">
                 <div class="nav-option" style="opacity: 1;">
                     <i class="fas fa-house"></i> 
-
                     <a href="#">Home</a>
                 </div>
                 <div class="nav-option">
@@ -127,27 +126,27 @@
                     
                 </div>
             </div>
-            <div class="music-player">
-                <div class="album"></div>
-                <div class="player">
-                <div class="player-controls">
-                    <img src="player_icon1.png"  class="player-control-icon">
-                    <img src="player_icon2.png"  class="player-control-icon">
-                    <img src="player_icon3.png"  class="player-control-icon " style="opacity: 1; height: 2rem;">
-                    <img src="player_icon4.png"  class="player-control-icon">
-                    <img src="player_icon5.png"  class="player-control-icon">
-                </div>
-                <div class="playback-bar">
-                    <span class="curr-time">00:00</span>
-                    <input type="range" min="0" max="100" class="playback-bar " step 1;>
-                    <span class="tit-time">3:33</span>
-                </div>
-                        
-            </div>
-            <div class="controls"></div>
         </div>
     </div>
-        
-   </div> 
+
+    <!-- Music Player -->
+    <div class="music-player">
+        <div class="album"></div>
+        <div class="player">
+            <div class="player-controls">
+                <img src="player_icon1.png" class="player-control-icon">
+                <img src="player_icon2.png" class="player-control-icon">
+                <img src="player_icon3.png" class="player-control-icon" style="opacity: 1; height: 2rem;">
+                <img src="player_icon4.png" class="player-control-icon">
+                <img src="player_icon5.png" class="player-control-icon">
+            </div>
+            <div class="playback-bar">
+                <span class="curr-time">00:00</span>
+                <input type="range" min="0" max="100" class="playback-bar" step="1;">
+                <span class="tit-time">3:33</span>
+            </div>
+        </div>
+        <div class="controls"></div>
+    </div>
 </body>
 </html>
